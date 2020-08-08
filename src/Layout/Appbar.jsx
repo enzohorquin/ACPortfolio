@@ -6,7 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const Bar = ({ open, classes, handleDrawerOpen, name, enableDrawer }) => {
     return (
