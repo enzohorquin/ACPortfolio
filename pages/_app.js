@@ -22,16 +22,17 @@ export default function MyApp(props) {
       <Head>
         <title>Agostina Castro Portfolio</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        {/* <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@0;1&display=swap" rel="stylesheet"></link> */}
       </Head>
       <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         <Layout>
           <div style={{ minHeight: '89vh' }}>
-          <Component {...pageProps} />
-          <footer style={{position: 'fixed', left: 0, bottom: 0, width: '100%'}}>
-            <Copyrigth /></footer>
-          
+            <Component {...pageProps} />
+            <footer style={{ position: 'fixed', left: 0, bottom: 0, width: '100%' }}>
+              <Copyrigth />
+            </footer>
+
           </div>
         </Layout>
       </ThemeProvider>

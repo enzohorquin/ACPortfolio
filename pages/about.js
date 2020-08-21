@@ -10,6 +10,10 @@ export default function About() {
   return (
     <Container maxWidth="xl">
       <Box my={4}>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <span style={{ fontFamily: 'Old Standard TT', fontSize: 30, fontStyle: 'italic' }}>Testing Old Standar Font Italic</span>
+          <span style={{ fontFamily: 'Old Standard TT', fontSize: 30 }}>Testing Old Standar Font Non Italic</span>
+        </div>
         <Typography variant="h4" component="h1" gutterBottom>
           Next.js example
         </Typography>
