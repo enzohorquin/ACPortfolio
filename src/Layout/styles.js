@@ -43,6 +43,7 @@ export const useStyles = makeStyles((theme) =>
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
+      width: '100%',
       marginTop: 64,
       marginLeft: -drawerWidth,
     },
@@ -56,10 +57,15 @@ export const useStyles = makeStyles((theme) =>
     },
     textSelected: {
       color: 'white',
+
+    },
+    text: {
+      cursor: 'pointer'
     },
     textColor: {
       color: 'black',
       fontSize: ' 0.688rem',
+      cursor: 'pointer',
       '&:hover': {
         color: 'white',
         transition: '0.3s',
@@ -93,6 +99,7 @@ export const useStyles = makeStyles((theme) =>
     rightToolbar: {
       marginLeft: 'auto',
       marginRight: -12,
-    }
+    },
+
   }),
 );

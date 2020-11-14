@@ -8,15 +8,7 @@ import Link from '../src/Link';
 export default function Index() {
   return (
     <Container maxWidth="xl">
-      <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-      </Box>
+
     </Container>
   );
 }

@@ -5,7 +5,7 @@ export const drawerConfig = [
         items: [
             {
                 name: "Almohadones",
-                link: "/"
+                link: "/almohadones"
             }
         ]
     },
@@ -20,7 +20,12 @@ export const drawerConfig = [
         ]
     },
     {
-        name: "Customers",
+        name: "Sobre el Estudio",
         link: "/",
     },
+    ,
+    {
+        name: "Contacto",
+        link: "/",
+    }
 ];

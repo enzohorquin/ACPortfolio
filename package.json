@@ -5,11 +5,13 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
-    "clsx": "latest",
-    "next": "latest",
+    "clsx": "^1.1.1",
+    "next": "^10.0.0",
+    "next-sass": "^1.0.3",
     "prop-types": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "sass": "^1.29.0"
   },
   "scripts": {
     "dev": "next",

@@ -19,8 +19,8 @@ const MenuItem = (props) => {
     const MenuItemRoot = (
         <ListItem
             key={name}
+            className={classes.text}
             classes={{ selected: classes.textSelected }}
-
         >
             <>
                 {!!Icon && (
@@ -29,7 +29,7 @@ const MenuItem = (props) => {
                     </ListItemIcon>
                 )}
                 <Link href={link}>
-                    <ListItemText primary={name} style={{ cursor: 'pointer' }} />
+                    <ListItemText primary={name} classes={{ primary: 'drawer-text' }} />
                 </Link>
                 {isExpandable && !open && <IconExpandMore onClick={handleClick} />}
                 {isExpandable && open && <IconExpandLess onClick={handleClick} />}
